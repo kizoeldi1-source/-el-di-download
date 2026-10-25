@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10111c">
+  <meta name="description" content="Website resmi EL.DI untuk mengunduh aplikasi Android.">
+  <title>EL.DI — Download Aplikasi</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #10111c;
+      color: #f5f5ff;
+    }
+
+    header {
+      padding: 20px;
+      border-bottom: 1px solid #29283c;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo {
+      background: linear-gradient(135deg, #9b5cff, #603bff);
+      padding: 12px;
+      border-radius: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    header h2 {
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 65px 20px 45px;
+      background: radial-gradient(
+        ellipse at top, #30205b, #10111c 70%
+      );
+    }
+
+    .tag {
+      color: #c4a6ff;
+      font-size: 12px;
+      letter-spacing: 3px;
+    }
+
+    h1 {
+      font-size: clamp(38px, 9vw, 60px);
+      margin: 20px 0 12px;
+    }
+
+    h1 span {
+      color: #a77aff;
+    }
+
+    .hero p {
+      color: #b9b9cc;
+      line-height: 1.7;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+
+    .apps {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 25px 20px 60px;
+    }
+
+    .app-card {
+      background: #191a29;
+      border: 1px solid #303047;
+      padding: 24px;
+      border-radius: 20px;
+    }
+
+    .app-icon {
+      width: 65px;
+      height: 65px;
+      display: grid;
+      place-items: center;
+      background: #292044;
+      border: 1px solid #7450c7;
+      border-radius: 16px;
+      color: #c6a8ff;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    .app-card h2 {
+      margin-bottom: 8px;
+    }
+
+    .muted {
+      color: #a7a7bd;
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .download {
+      display: block;
+      margin-top: 22px;
+      padding: 15px;
+      border-radius: 12px;
+      text-align: center;
+      text-decoration: none;
+      background: #8755f6;
+      color: white;
+      font-weight: bold;
+    }
+
+    .download:hover {
+      background: #7040dc;
+    }
+
+    .notice {
+      color: #a7a7bd;
+      font-size: 12px;
+      line-height: 1.6;
+      margin-top: 16px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      border-top: 1px solid #29283c;
+      color: #85859b;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">EL</div>
+    <h2>EL.DI</h2>
+  </header>
+
+  <section class="hero">
+    <div class="tag">EL.DI OFFICIAL</div>
+    <h1>Apps made <span>simple.</span></h1>
+    <p>
+      Selamat datang di EL.DI.
+      Temukan dan unduh aplikasi Android
+      dari koleksi aplikasi kami.
+    </p>
+  </section>
+
+  <main class="apps">
+    <div class="app-card">
+      <div class="app-icon">EL</div>
+      <h2>Aplikasi EL.DI</h2>
+      <p class="muted">
+        Aplikasi resmi EL.DI untuk Android.
+        Informasi aplikasi dan file unduhan
+        akan tersedia di halaman ini.
+      </p>
+
+      <a class="download" href="downloads/eldi.apk"
+         download>
+        ↓ Download APK
+      </a>
+
+      <p class="notice">
+        Unduh hanya jika file APK sudah tersedia.
+        Pastikan kamu mempercayai sumber aplikasi
+        sebelum memasangnya di perangkat.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 EL.DI. All rights reserved.
+  </footer>
+</body>
+</html>
+  
